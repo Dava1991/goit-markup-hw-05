@@ -626,9 +626,7 @@ button:active {
       }
 
 
-      .form {
-        gap: 24px;
-      }
+     
   
       .parfoot {
         margin-bottom: 16px;
@@ -641,6 +639,7 @@ button:active {
 
       .formcla {
         display: flex;
+        gap: 24px;
       }
 
       .labcla {
