@@ -1,6 +1,18 @@
 :root {
 
     --page-background: #ffffff;
+    --dark: #2e2f42; 
+    --text: 3434455;
+    --main-background-color: #e5e5e5; 
+    --light: #f4f4fd; 
+    --whitr-background: #ffffff;
+    --primary-brand: #4d5ae5; 
+    --pressed-state: #404bbf; 
+    --cornflower: #e7e9fc;
+    --lightslate: #8e8f99;
+    --grey: rgba(46, 47, 66, 0.7);
+    --ocean: #404bbf;
+    --pressed-state-icon: #31d0aa;
 }
 
 
@@ -831,4 +843,17 @@ button:active {
         border: none;
         border-radius: 4px;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+
+    .hero {
+        background-color: var(--dark);
+        padding: 188px 0;
+        margin: 0 auto;
+        max-width: 1440 px;
+        background-image: linear-gradient (var(--grey), var(--grey)), url (../images/people-office.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
     }
