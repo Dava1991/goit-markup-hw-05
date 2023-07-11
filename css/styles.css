@@ -805,6 +805,7 @@ button:active {
         align-items: center;
         justify-content: center;
         fill: transparent;
+        margin-right: 6px;
       }
 
 
@@ -816,6 +817,7 @@ button:active {
 
     .linkkk {
         color: #4d5ae5;
+        margin-left: 4px;
     }
 
     .knooo {
